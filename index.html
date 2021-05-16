@@ -1,0 +1,41 @@
+<!-- Made by Harman Sandhu -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+<body class="noselect">
+    <div class="machine">
+        <div id="top" class="top">
+            <span><img src="./assets/cherry.png"></span>
+            <span class="mid"><img src="./assets/watermelon.png"></span>
+            <span><img src="./assets/lemon.png"></span>
+        </div>
+        <div id="center" class="center">
+            <span><img src="./assets/grape.png"></span>
+            <span><img src="./assets/orange.svg"></span>
+            <span><img src="./assets/seven.png"></span>
+        </div>
+        <div id="btm" class="bottom">
+            <span><img src="./assets/orange.svg"></span>
+            <span><img src="./assets/seven.png"></span>
+            <span><img src="./assets/cherry.png"></span>
+        </div>
+        <div onclick="spin()" id="btn" class="button">
+            <span id="spin">SPIN</span>
+        </div>
+        <div class="autospin">Auto Spin: <input type="checkbox" onclick="autospin(this)"></div>
+    </div>
+    <div class="score">
+        Score:
+        <span id="total">0</span>
+    </div>
+    <h1 id='h1' class="hidden">You scored <span id="score">5</span> points.</h1>
+</body>
+</html>

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #333333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.machine{
+    width: 75%;
+    max-width: 800px;
+    height: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 25px;
+}
+
+.top{
+    /* background-color: red; */
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.center{
+    /* background-color: green; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.bottom{
+    /* background-color: blue; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.button{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    
+}
+
+.button span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.top span{
+    font-size: 24px;
+}
+
+.center span{
+    font-size: 24px;
+}
+
+.bottom span{
+    font-size: 24px;
+}
+
+.score {
+    position: fixed;
+    color: white;
+    background-color: #2e2d2d;
+    border-bottom: solid 2px greenyellow;
+    /* border-left: solid 2px greenyellow; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    right: .5%;
+    /* width: 80px; */
+    padding: 7px;
+    font-size: 30px;
+}
+
+.score span{
+    color: greenyellow;
+}
+
+#h1{
+    color: white;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1 span{
+    color: greenyellow;
+}
+
+.hidden{
+    display: none;
+    /* transition: .5s all ease; */
+}
+
+#spin{
+    font-family: inherit;
+    color: greenyellow;
+    width: 100%;
+    font-size: 32px;
+    /* background-color: #353535; */
+}
+
+.button{
+    background-color: #222;
+    /* border-bottom-left-radius: 10px; */
+}
+
+.noselect{
+    user-select: none;
+}
+
+img{
+    width: 100px;
+}
+
+.autospin{
+    color: white;
+    font-size: 18px;
+    position: fixed;
+    padding-left: 15px;
+    padding-top: 5px;
+}
